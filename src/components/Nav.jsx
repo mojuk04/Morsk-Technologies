@@ -2,6 +2,9 @@ import React from "react";
 import morsk from "../assets/morsk.png";
 import "../styles/nav.css";
 import { Morsk } from "./Morsk";
+import About from "./About";
+import Solutions from "./Solutions";
+import { Contact } from "./Contact";
 
 const Nav = () => {
   return (
@@ -12,7 +15,7 @@ const Nav = () => {
       <div class="nav-links">
         <div class="nav-item">
           <a href="#" class="nav-link">
-            Why Morsk?
+            Why Morsk
           </a>
           <div class="hover-content">
             <div class="pop-up-body">
@@ -23,10 +26,12 @@ const Nav = () => {
 
         <div class="nav-item">
           <a href="#" class="nav-link">
-            About Us
+            About Morsk
           </a>
           <div class="hover-content">
-            <div class="pop-up-body">About us</div>
+            <div class="pop-up-body">
+              <About />
+            </div>
           </div>
         </div>
 
@@ -35,7 +40,9 @@ const Nav = () => {
             Solutions
           </a>
           <div class="hover-content">
-            <div class="pop-up-body">Solutions</div>
+            <div class="pop-up-body">
+              <Solutions />
+            </div>
           </div>
         </div>
         <div class="nav-item">
@@ -43,7 +50,9 @@ const Nav = () => {
             Contact
           </a>
           <div class="hover-content">
-            <div class="pop-up-body">contact</div>
+            <div class="pop-up-body">
+              <Contact />
+            </div>
           </div>
         </div>
       </div>

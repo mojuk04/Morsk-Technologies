@@ -1,0 +1,25 @@
+.flex-container-about {
+  background-color: #d1d1cf;
+  display: flex;
+  position: fixed;
+  left: 10vw;
+  right: 10vw;
+  top: 5rem;
+  border-radius: 0 0 1.5rem 1.5rem;
+  justify-content: center;
+  gap: 1rem;
+  place-items: center;
+  min-height: 75vh;
+  max-width: 80vw;
+}
+.about-text {
+  border: 2px solid red;
+  width: 40%;
+}
+.about-img {
+  border: 2px solid red;
+  width: 40%;
+}
+.about-img img {
+  width: 100%;
+}

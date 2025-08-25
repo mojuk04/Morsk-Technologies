@@ -29,32 +29,35 @@ nav {
 
 /* Styles for the hover pop-up functionality */
 .hover-content {
+  /* transform: translateX(-50%) scale(0.5); */
+  /* transform-origin: top; */
   position: absolute;
   left: 25%;
-  top: 1.8rem;
-  /* transform: translateX(-50%) scale(0.5); */
-  margin-top: 0.75rem;
+  top: 0rem;
+  margin-top: -1rem;
   overflow: hidden;
   border-radius: 0 0 1rem 1rem;
   visibility: hidden;
   opacity: 0;
   transition-property: opacity, visibility, transform;
   transition-duration: 0ms;
-  /* transform-origin: top; */
   background-color: #d1d1cf;
   width: 50%;
+  background: none;
 }
 .nav-item:hover .hover-content {
+  /* transform: translateX(0) scale(1); */
   opacity: 1;
   visibility: visible;
-  /* transform: translateX(0) scale(1); */
   position: fixed;
   min-height: 75vh;
   position: absolute;
-  top: 2.1rem;
+  top: 4rem;
   left: 10vw;
   right: 10vw;
   width: 80vw;
+  background-color: #d1d1cf;
+  background: none;
 }
 .pop-up-body {
   padding: 1.5rem;
@@ -67,12 +70,12 @@ nav {
 }
 
 nav button {
-  width: 6rem;
+  width: 7.5rem;
   height: 2.5rem;
   background-color: #1a1a1a;
   border: none;
   border-radius: 0.5rem;
-  font-family: century gothic;
+  font-family: inter;
   font-size: 1.15rem;
   font-weight: bold;
   color: #d1d1cf;
