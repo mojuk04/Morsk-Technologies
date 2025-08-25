@@ -1,22 +1,10 @@
 import React from "react";
 import morsk from "../assets/morsk.png";
 import "../styles/nav.css";
+import { Morsk } from "./Morsk";
 
 const Nav = () => {
   return (
-    // <nav>
-    // 		<div className="image"><img src={morsk} alt="morsk logo" width="125px" /></div>
-    // 		<div className="nav-links">
-    // 		<ul className='nav-items'>
-    // 			<li><a href="#">Why Morsk?</a></li>
-    // 			<li><a href="#">About us</a></li>
-    // 			<li><a href="#">Solutions</a></li>
-    // 			<li><a href="#">Contact</a></li>
-    // 		</ul>
-    // 		</div>
-    // 		<button>Hire us</button>
-    // 		</nav>
-
     <nav class="container">
       <div className="image">
         <img src={morsk} alt="morsk logo" width="100px" />
@@ -27,7 +15,9 @@ const Nav = () => {
             Why Morsk?
           </a>
           <div class="hover-content">
-            <div class="pop-up-body">Why morsk</div>
+            <div class="pop-up-body">
+              <Morsk />
+            </div>
           </div>
         </div>
 
