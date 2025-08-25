@@ -5,7 +5,10 @@ export const Morsk = () => {
   return (
     <section className="morsk-section">
       <div className="flex-container-morsk">
-        <h2 className="morsk-header">Why not Morsk?</h2>
+        {/* <h2 style={{ textAlign: "center" }} className="morsk-header">
+          Why not Morsk?
+          <br /> when we offer you
+        </h2> */}
         <div className="cards-container">
           <div className="card card1 ">
             <h3>All in one solutions</h3>
@@ -23,7 +26,7 @@ export const Morsk = () => {
             us is streamlined to your needs and hassle free
           </div>
           <div className="card card3">
-            <h3>Client-Centered Process</h3>
+            <h3>A Client-Centered Process</h3>
             <p>
               We offer you unmatched commitment. Our process includes a
               transparent communication system and a dedicated project manager
