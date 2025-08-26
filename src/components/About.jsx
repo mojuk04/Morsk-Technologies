@@ -41,7 +41,7 @@ const About = () => {
           </p>
           <p>
             We envision a future where every business, regardless of size, has
-            the technological tools and support to thrive in the digital age."
+            the technological tools and support to thrive in the digital age.
           </p>
         </div>
         <div className="about-img">

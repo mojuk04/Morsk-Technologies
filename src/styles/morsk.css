@@ -14,16 +14,16 @@
   flex-direction: column;
 }
 .morsk-header {
-  margin: -4rem 0 2rem;
+  margin: -1vh 0 2rem;
   font-family: inter;
 }
-.cards-container {
+.morsk-cards-container {
   display: flex;
   flex-direction: row;
   width: 90%;
   justify-content: space-around;
 }
-.card {
+.morsk-card {
   width: 40%;
   padding: 0.25rem;
   display: flex;
@@ -33,7 +33,7 @@
   background-color: #d1d1cf;
   padding: 0.5rem;
 }
-.card:hover {
+.morsk-card:hover {
   background-color: #1a1a1a;
   color: #d1d1cf;
   line-height: 1.5rem;
@@ -41,11 +41,11 @@
   padding: 1rem;
   width: 47.5%;
 }
-.card2 {
+.morsk-card2 {
   border-left: 2px solid #1a1a1a;
   border-right: 2px solid #1a1a1a;
   padding: 0 1.5rem;
 }
-.card p {
+.morsk-card p {
   text-align: justify;
 }
