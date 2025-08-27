@@ -4,7 +4,7 @@ import "../styles/morsk.css";
 export const Morsk = () => {
   return (
     <section className="morsk-section">
-      <div className="flex-container-morsk">
+      <div className="morsk-flex-container">
         <h2 style={{ textAlign: "center" }} className="morsk-header">
           Why not Morsk?
           <br /> when we offer you

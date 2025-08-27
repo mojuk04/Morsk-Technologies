@@ -8,7 +8,7 @@ import { Contact } from "./Contact";
 
 const Nav = () => {
   return (
-    <nav class="container">
+    <nav class="nav-container">
       <div className="image">
         <img src={morsk} alt="morsk logo" width="100px" />
       </div>

@@ -4,8 +4,8 @@ import about from "../assets/about.jpg";
 
 const About = () => {
   return (
-    <section className="morsk-section">
-      <div className="flex-container-about">
+    <section className="about-section">
+      <div className="about-flex-container">
         <div className="about-text">
           <h2>Morsk Technologies</h2>
           <p>
@@ -14,7 +14,7 @@ const About = () => {
             problems. Morsk Technologies exists to empower your business by
             providing seamless technological solutions that drive growth and
             solve complex problems.
-            {/* tyle="height:2px;border-width:0;color:gray;background-color:gray" */}
+            {/* style="height:2px;border-width:0;color:gray;background-color:gray" */}
             <hr
               style={{
                 height: "2px",

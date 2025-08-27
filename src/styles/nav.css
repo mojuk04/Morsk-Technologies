@@ -1,4 +1,4 @@
-nav {
+.nav-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -40,7 +40,7 @@ nav {
   visibility: hidden;
   opacity: 0;
   transition-property: opacity, visibility, transform;
-  transition-duration: 0ms;
+  transition-duration: 1ms;
   background-color: #d1d1cf;
   width: 50%;
   background: none;
@@ -51,13 +51,14 @@ nav {
   visibility: visible;
   position: fixed;
   min-height: 75vh;
-  position: absolute;
+  /* position: absolute; */
   top: 4rem;
   left: 10vw;
   right: 10vw;
   width: 80vw;
   background-color: #d1d1cf;
   background: none;
+  transition-delay: 200ms
 }
 .pop-up-body {
   padding: 1.5rem;

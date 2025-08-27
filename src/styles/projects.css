@@ -1,0 +1,28 @@
+.projects {
+  border: 2px solid green;
+}
+.projects-container {
+  border: 2px solid red;
+  min-height: 100%;
+  width: 95%;
+  margin: 0 auto;
+}
+.flyers {
+  border: 2px solid blue;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a1a1a;
+}
+
+.flyers img {
+  width: 30%;
+  transition: 0.5s;
+  border-radius: 5%;
+}
+.flyers img:hover {
+  width: 31%;
+}

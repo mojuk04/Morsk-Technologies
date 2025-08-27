@@ -1,0 +1,26 @@
+.introduction {
+  min-height: 90vh;
+  color: #d1d1cf;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.intro-flex {
+  border: 2px solid green;
+}
+.introduction h1 {
+  font-size: 5rem;
+}
+.introduction h3 {
+  font-size: 2rem;
+}
+.introduction h4 {
+  background-color: #d1d1cf;
+  color: #1a1a1a;
+  padding: 0.5rem 1rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+}
