@@ -19,12 +19,12 @@
 }
 .morsk-cards-container {
   display: flex;
-  flex-direction: row;
-  width: 90%;
-  justify-content: space-around;
+  width: 95%;
+  justify-content: space-between;
+  gap: 1rem;
 }
 .morsk-card {
-  width: 40%;
+  width: 30rem;
   padding: 0.25rem;
   display: flex;
   flex-direction: column;
@@ -39,7 +39,7 @@
   line-height: 1.5rem;
   border: none;
   padding: 1rem;
-  width: 47.5%;
+  width: 32rem;
 }
 .morsk-card2 {
   border-left: 2px solid #1a1a1a;

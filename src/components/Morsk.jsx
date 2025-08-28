@@ -6,8 +6,7 @@ export const Morsk = () => {
     <section className="morsk-section">
       <div className="morsk-flex-container">
         <h2 style={{ textAlign: "center" }} className="morsk-header">
-          Why not Morsk?
-          <br /> when we offer you
+          Why not Morsk when we offer you
         </h2>
         <div className="morsk-cards-container">
           <div className="morsk-card card1 ">

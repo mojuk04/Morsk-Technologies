@@ -1,28 +1,55 @@
 .projects {
-  border: 2px solid green;
-}
-.projects-container {
-  border: 2px solid red;
-  min-height: 100%;
-  width: 95%;
-  margin: 0 auto;
-}
-.flyers {
-  border: 2px solid blue;
+  border: 5px solid white;
+  color: #d1d1df;
   text-align: center;
+}
+.flyers-container,
+.social-media-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  align-items: center;
+  gap: 0.5rem;
   justify-content: center;
-  background-color: #1a1a1a;
+}
+.flyers-container img,
+.social-media-container img {
+  width: 20rem;
+  border: 2px solid #d1d1df;
+  border-radius: 1rem;
 }
 
-.flyers img {
-  width: 30%;
-  transition: 0.5s;
-  border-radius: 5%;
+.logos {
+  border: 1px solid;
 }
-.flyers img:hover {
-  width: 31%;
+.logos img {
+  width: 20rem;
+}
+.brand-designs {
+  border: 1px solid;
+}
+.brand-designs img {
+  width: 20rem;
+}
+
+.websites {
+  border: 2px solid grey;
+}
+.websites img {
+  width: 20rem;
+}
+.websites-container {
+  border: 5px solid red;
+  padding: 7.5px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  justify-content: center;
+}
+.website {
+  width: 35rem;
+  height: 20rem;
+  border: 2px solid #d1d1df;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
