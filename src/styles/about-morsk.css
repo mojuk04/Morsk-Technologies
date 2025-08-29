@@ -1,0 +1,20 @@
+.about-morsk {
+  min-height: 80vh;
+  margin: auto;
+  font-family: "Century Gothic";
+  color: #1a1a1a;
+  padding: 2rem 2.5rem;
+  background-color: #d1d1cf;
+  color: #093d85;
+}
+.about-morsk h2 {
+  font-size: 3rem;
+}
+.about-morsk h3 {
+  font-size: 2rem;
+}
+.about-morsk p {
+  font-size: 1.5rem;
+  text-align: justify;
+  color: #093d85;
+}

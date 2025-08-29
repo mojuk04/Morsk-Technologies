@@ -4,6 +4,7 @@ import "../styles/projects.css";
 const Projects = () => {
   return (
     <section className="projects">
+      Explore our Projects
       <section className="graphics-design">
         <br />
         <h2>Flyers</h2>

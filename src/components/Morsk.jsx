@@ -11,18 +11,22 @@ export const Morsk = () => {
         <div className="morsk-cards-container">
           <div className="morsk-card card1 ">
             <h3>All in one solutions</h3>
-            Morsk Technologies offer a complete suite of services in one place
-            which means no more juggling multiple contracts, project managers
-            and different communication styles.
-            <br />
-            Get unique solutions for your unique needs
+            <p>
+              Morsk Technologies offer a complete suite of services in one place
+              which means no more juggling multiple contracts, project managers
+              and different communication styles.
+              <br />
+              Get unique solutions for your unique needs
+            </p>
           </div>
           <div className="morsk-card card2">
             <h3>Problem Solving and Expertise</h3>
-            We don’t just create websites, or analyze your data, we create a
-            digital experience and provide actionable insights to inform your
-            next decisions Our talented experts make sure your experience with
-            us is streamlined to your needs and hassle free
+            <p>
+              We don’t just create websites, or analyze your data, we create a
+              digital experience and provide actionable insights to inform your
+              next decisions Our talented experts make sure your experience with
+              us is streamlined to your needs and hassle free
+            </p>
           </div>
           <div className="morsk-card card3">
             <h3>A Client-Centered Process</h3>
@@ -38,3 +42,50 @@ export const Morsk = () => {
     </section>
   );
 };
+
+// <section className="morsk-section">
+//   <div className="morsk-flex-container">
+//     <h2 className="morsk-header">Why not Morsk when we offer you</h2>
+
+//     <div className="new-flex">
+//       <div className="morsk-cards-container">
+//         <div className="morsk-card card1 ">
+//           <h3>All in one solutions</h3>
+//           <p>
+//             Morsk Technologies offer a complete suite of services in one place
+//             which means no more juggling multiple contracts, project managers
+//             and different communication styles.
+//             <br />
+//             Get unique solutions for your unique needs
+//           </p>
+//         </div>
+//         <div className="morsk-card card2">
+//           <h3>Problem Solving and Expertise</h3>
+//           <p>
+//             We don’t just create websites, or analyze your data, we create a
+//             digital experience and provide actionable insights to inform your
+//             next decisions Our talented experts make sure your experience with
+//             us is streamlined to your needs and hassle free
+//           </p>
+//         </div>
+//         <div className="morsk-card card3">
+//           <h3>A Client-Centered Process</h3>
+//           <p>
+//             We offer you unmatched commitment. Our process includes a
+//             transparent communication system and a dedicated project manager for
+//             every project. Most importantly, we are committed to delivering our
+//             services on time and within your budget
+//           </p>
+//         </div>
+//       </div>
+
+//       <div>
+//         <img
+//           src="src/assets/collaborative blueprint.jpg"
+//           alt=""
+//           style={{ width: "20rem" }}
+//         />
+//       </div>
+//     </div>
+//   </div>
+// </section>;
