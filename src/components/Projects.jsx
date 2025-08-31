@@ -3,7 +3,7 @@ import "../styles/projects.css";
 
 const Projects = () => {
   return (
-    <section className="projects">
+    <section className="projects" >
       <p style={{ fontSize: "2rem" }}> Explore our Projects</p>
       <section className="graphics-design">
         <br />

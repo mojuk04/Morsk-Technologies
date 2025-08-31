@@ -4,6 +4,7 @@ import "../styles/about-morsk.css";
 export const AboutMorsk = () => {
   return (
     <section className="about-morsk">
+      <span id="about-morsk"></span>
       <h2>Morsk Technologies</h2>
       <br />
       <p>
@@ -33,7 +34,9 @@ export const AboutMorsk = () => {
         your ideas into tangible profitable realities. By offering a unified
         suite of services - from graphics and 3D designs to even your more
         complex needs like web development and data analysis - we ensure you
-        have a dedicated partner to tackle any of your challenges.
+        have a dedicated partner to tackle any of your
+        <span id="projects"></span>
+        challenges.
       </p>
     </section>
   );

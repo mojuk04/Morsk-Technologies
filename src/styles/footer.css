@@ -1,0 +1,15 @@
+.footer {
+  border: 1px solid red;
+  min-height: 50vh;
+}
+
+.footer p {
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-family: "Century Gothic";
+  text-align: center;
+  color: #dadacf;
+}
+.footer a {
+  color: #dadacf;
+}

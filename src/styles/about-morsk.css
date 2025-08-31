@@ -21,3 +21,8 @@
   text-align: justify;
   background-color: #d1d1cf7c;
 }
+
+@media only screen and (max-width: 1000px) {
+  /* .about-morsk {
+  } */
+}

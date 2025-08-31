@@ -1,9 +1,5 @@
 import React from "react";
 import "../styles/mobile-nav.css";
-import { Morsk } from "./Morsk";
-import About from "./About";
-import Solutions from "./Solutions";
-import { Contact } from "./Contact";
 
 export const MobileNav = () => {
   // mobile hamburger
@@ -18,31 +14,47 @@ export const MobileNav = () => {
         className="md:hidden focus:outline-none"
         aria-label="Toggle mobile menu"
       >
-        <div className={isMenuOpen ? "active" : "inactive"}></div>
-        <div className={isMenuOpen ? "active" : "inactive"}></div>
-        <div className={isMenuOpen ? "active" : "inactive"}></div>
+        <svg
+          className="w-2 h-2 text-gray-800"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          {isMenuOpen ? (
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          ) : (
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          )}
+        </svg>
       </button>
 
       {isMenuOpen ? (
         <section className="mobile-links">
-          {/* <div class="mobile-nav-item"> */}
-
           <ul>
             <a href="#">
-              <li>Why Morsk?</li>
+              <li>Home</li>
             </a>
-            <a href="#">
-              <li>About</li>
+            <a href="#about-morsk">
+              <li>About Morsk</li>
             </a>
-            <a href="#">
-              <li>Solutions</li>
+            <a href="#projects">
+              <li>Projects</li>
             </a>
             <a href="#">
               <li>Contact</li>
             </a>
           </ul>
-
-          {/* </div> */}
         </section>
       ) : undefined}
     </section>
