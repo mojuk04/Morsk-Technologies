@@ -11,7 +11,9 @@ const Introduction = () => {
           let's solve them with you.
         </h1>
         <h3>same place, all in one solutions</h3>
-        <button>Send an email to get started</button>
+        <a href="mailto:morsktechnologies@gmail.com">
+          <button>Send an email to get started</button>
+        </a>
       </section>
     </>
   );

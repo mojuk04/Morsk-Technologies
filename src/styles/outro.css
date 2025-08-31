@@ -1,0 +1,54 @@
+.outro {
+  min-height: 50vh;
+  display: flex;
+  font-family: "Century Gothic";
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  gap: 1.5rem;
+  background-color: #d1d1cf;
+  background-image: url(../assets/morsk-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  flex-wrap: wrap;
+}
+
+.outro-card {
+  width: 32.5rem;
+  min-height: 20rem;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  background-color: #093285;
+  color: #d1d1cf;
+}
+
+.outro-card p {
+  font-size: 1.25rem;
+}
+.outro-card a {
+  width: fit-content;
+}
+.outro-card button {
+  min-height: 2rem;
+  padding: 0.5rem;
+  border: none;
+  font-family: "Century Gothic";
+  font-size: 0.9rem;
+  background-color: #d1d1cf;
+  border-radius: 0.5rem;
+  color: #093285;
+  cursor: pointer;
+  transition: 0.9s;
+}
+.outro-card button:hover {
+  border: 2px solid #d1d1cf;
+  color: #d1d1cf;
+  background: none;
+}
+
+.footer {
+  border: 1px solid red;
+  min-height: 50vh;
+}

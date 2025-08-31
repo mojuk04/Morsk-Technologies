@@ -7,7 +7,7 @@ const Solutions = () => {
       <div className="flex-container-solutions">
         <div
           className="solutions-card"
-          style={{ backgroundColor: "#383838", color: "#D1D1CF" }}
+          style={{ backgroundColor: "#093d85", color: "#D1D1CF" }}
         >
           <h2>Web Development</h2>
           <p>
@@ -20,7 +20,7 @@ const Solutions = () => {
         </div>
         <div
           className="solutions-card"
-          style={{ backgroundColor: "#838383", color: "#212121" }}
+          style={{ backgroundColor: "#00275eff", color: "#d1d1cf" }}
         >
           <h2>Graphics Design</h2>
           <p>
@@ -33,7 +33,7 @@ const Solutions = () => {
         </div>
         <div
           className="solutions-card "
-          style={{ backgroundColor: "#282828", color: "#d1d1df" }}
+          style={{ backgroundColor: "#003783ff", color: "#d1d1df" }}
         >
           <h2>Data Analysis</h2>
           <p>
@@ -43,7 +43,7 @@ const Solutions = () => {
         </div>
         <div
           className="solutions-card"
-          style={{ backgroundColor: "#212121", color: "#d1d1df" }}
+          style={{ backgroundColor: "#00275e", color: "#d1d1df" }}
         >
           <h2>Animations and Motion Design</h2>
           <p>
@@ -53,7 +53,7 @@ const Solutions = () => {
         </div>
         <div
           className="solutions-card"
-          style={{ backgroundColor: "#353535", color: "#d1d1df" }}
+          style={{ backgroundColor: "#00214eff", color: "#d1d1df" }}
         >
           <h2>UI/UX Design</h2>
           <p>

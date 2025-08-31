@@ -1,5 +1,5 @@
 .introduction {
-  min-height: 90vh;
+  min-height: 100vh;
   color: #d1d1cf;
   text-align: center;
   display: flex;
@@ -9,6 +9,7 @@
   align-items: center;
   font-family: "Century Gothic";
   background-color: #093d85;
+  padding: 3rem;
 }
 .introduction h1 {
   font-size: 5rem;
@@ -24,9 +25,13 @@
   font-size: 1.5rem;
   border: none;
   cursor: pointer;
+  font-family: "Century Gothic";
   transition: 0.5s;
 }
 .introduction button:hover {
-  padding: 0.75rem 1.25rem;
-  font-size: 1.6rem;
+  /* padding: 0.75rem 1.25rem;
+  font-size: 1.6rem; */
+  background-color: #093d85;
+  color: #d1d1cf;
+  border: 2.5px solid;
 }

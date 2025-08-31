@@ -9,40 +9,31 @@ const About = () => {
         <div className="about-text">
           <h2>Morsk Technologies</h2>
           <p>
-            Morsk Technologies exists to empower your business by providing
-            seamless technological solutions that drive growth and solve complex
-            problems. Morsk Technologies exists to empower your business by
-            providing seamless technological solutions that drive growth and
-            solve complex problems.
-            {/* style="height:2px;border-width:0;color:gray;background-color:gray" */}
-            <hr
-              style={{
-                height: "2px",
-                width: "100%",
-                border: "1px solid #1a1a1a",
-                textAlign: "center",
-                marginTop: "15px",
-              }}
-            />
+            Morsk Technologies exist to bridge the gap between innovative
+            technology and the real life business needs. We are here so your
+            businesses don't struggle to adapt to the digital age.
           </p>
           <p>
-            A unified team of experts who provide a holistic, integrated
-            approach. We are not just a vendor, we are a strategic partner
-            dedicated to their success.
-            <hr
-              style={{
-                height: "0.1px",
-                width: "100%",
-                border: "0.1px solid #1a1a1a",
-                textAlign: "center",
-                marginTop: "15px",
-              }}
-            />
+            Whether you have a new business idea or you have your business
+            running already, our services help you make the next best decisions
+            for your brand.
           </p>
           <p>
+            Our unified team of experts empower your business by providing
+            seamless technological solutions through holistic and integrated
+            {/* consider using a synonym to approach */}
+            approaches.
+            {/* that drive growth and solve complex
+            problems. */}
+          </p>
+          <p>
+            We are not just a vendor, we are your strategic business partner and
+            we are dedicated to your success.
+          </p>
+          {/* <p>
             We envision a future where every business, regardless of size, has
             the technological tools and support to thrive in the digital age.
-          </p>
+          </p> */}
         </div>
         <div className="about-img">
           <img src={about} alt="" />

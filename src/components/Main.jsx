@@ -3,6 +3,7 @@ import "../App.css";
 import Projects from "./Projects";
 import Introduction from "./Introduction";
 import { AboutMorsk } from "./AboutMorsk";
+import { Outro } from "./Outro";
 
 const Main = () => {
   return (
@@ -10,6 +11,7 @@ const Main = () => {
       <Introduction />
       <AboutMorsk />
       <Projects />
+      <Outro />
     </main>
   );
 };

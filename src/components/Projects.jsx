@@ -4,10 +4,10 @@ import "../styles/projects.css";
 const Projects = () => {
   return (
     <section className="projects">
-      Explore our Projects
+      <p style={{ fontSize: "2rem" }}> Explore our Projects</p>
       <section className="graphics-design">
         <br />
-        <h2>Flyers</h2>
+        <p>Flyers</p>
         <br />
         <div className="flyers-container">
           <img src="src/assets/graphics projects/real int ad.jpg" alt="" />
@@ -21,8 +21,8 @@ const Projects = () => {
           <img src="src/assets/graphics projects/kindred spirits.jpg" alt="" />
           <img src="src/assets/graphics projects/neephia stitches.jpg" alt="" />
         </div>
-        <br />
-        <h2>Social Media Posts</h2>
+        <br /> <br />
+        <p>Social Media Posts</p>
         <br />
         <div className="social-media-container">
           <img src="src/assets/graphics projects/nikee.jpg" alt="" />
@@ -35,10 +35,18 @@ const Projects = () => {
       {/* logos */}
       <section className="logos">
         <br />
-        <h2>Logos</h2>
+        <p>Logo Designs</p>
         <br />
         <div className="logos-container">
-          <img src="src/assets/graphics projects/real int ad.jpg" alt="" />
+          <img src="src/assets/logos/eco-flare.jpg" alt="" />
+          <img src="src/assets/logos/anhor-point.jpg" alt="" />
+          <img src="src/assets/logos/beets.jpg" alt="" />
+          <img src="src/assets/logos/fitclad.jpg" alt="" />
+          <img src="src/assets/logos/illuminiq.jpg" alt="" />
+          <img src="src/assets/logos/konnect-circuit.jpg" alt="" />
+          <img src="src/assets/logos/next-pay.jpg" alt="" />
+          <img src="src/assets/logos/thunder-forte.jpg" alt="" />
+          <img src="src/assets/logos/uplink.jpg" alt="" />
         </div>
         <br />
       </section>
@@ -46,7 +54,7 @@ const Projects = () => {
       {/* brand identity */}
       <section className="brand-designs">
         <br />
-        <h2>Brand Designs</h2>
+        <p>Brand Designs</p>
         <br />
         <div className="brands-container">
           <img src="src/assets/graphics projects/real int ad.jpg" alt="" />
@@ -57,7 +65,7 @@ const Projects = () => {
       {/* websites */}
       <section className="websites">
         <br />
-        <h2>Websites</h2>
+        <p>Websites</p>
         <br />
         <div className="websites-container">
           <div className="website">

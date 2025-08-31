@@ -18,7 +18,7 @@ export const AboutMorsk = () => {
       </p>
       <br />
       <p>
-        We don't just build websites and apps; we build partnerships. Our goal
+        We don't just build websites and apps, we build partnerships. Our goal
         is to be a trusted advisor, a creative collaborator, and a technological
         backbone for our clients, ensuring their digital presence is not just
         functional, but exceptional. This includes offering comprehensive data
@@ -27,7 +27,14 @@ export const AboutMorsk = () => {
         powerful engine for growth for businesses of all sizes.
       </p>
       <br />
-    
+      <p>
+        When you think Morsk, think all-round digital solutions. Our commitment
+        is to your success, providing a "you" centered approach that transforms
+        your ideas into tangible profitable realities. By offering a unified
+        suite of services - from graphics and 3D designs to even your more
+        complex needs like web development and data analysis - we ensure you
+        have a dedicated partner to tackle any of your challenges.
+      </p>
     </section>
   );
-}
+};

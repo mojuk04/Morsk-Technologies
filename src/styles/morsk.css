@@ -40,11 +40,12 @@
   font-size: 1rem;
 }
 .morsk-card:hover {
-  background-color: #093d85;
-  color: #d1d1cf;
+  background-color: #d1d1cf;
+  color: #093285;
   line-height: 1.5rem;
   padding: 0.5rem;
   width: 50rem;
+  border: 3px solid #093285;
 }
 .morsk-card p {
   text-align: justify;
