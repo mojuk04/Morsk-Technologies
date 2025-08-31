@@ -10,30 +10,30 @@ const Projects = () => {
         <p>Flyers</p>
         <br />
         <div className="flyers-container">
-          <img src="public/real int ad.jpg" alt="" />
-          <img src="public/real max ad.jpg" alt="" />
-          <img src="public/freight bunny.jpg" alt="" />
-          <img src="public/gloryland.jpg" alt="" />
+          <img src="/real int ad.jpg" alt="" />
+          <img src="/real max ad.jpg" alt="" />
+          <img src="/freight bunny.jpg" alt="" />
+          <img src="/gloryland.jpg" alt="" />
 
-          <img src="public/gdg.jpg" alt="" />
+          <img src="/gdg.jpg" alt="" />
 
-          <img src="public/lacadous.jpg" alt="" />
+          <img src="/lacadous.jpg" alt="" />
 
-          <img src="public/morsk.jpg" alt="" />
+          <img src="/morsk.jpg" alt="" />
 
-          <img src="public/shes-deemua.jpg" alt="" />
+          <img src="/shes-deemua.jpg" alt="" />
 
-          <img src="public/kindred spirits.jpg" alt="" />
+          <img src="/kindred spirits.jpg" alt="" />
 
-          <img src="public/neephia stitches.jpg" alt="" />
+          <img src="/neephia stitches.jpg" alt="" />
         </div>
         <br /> <br />
         <p>Social Media Posts</p>
         <br />
         <div className="social-media-container">
-          <img src="public/nikee.jpg" alt="" />
-          <img src="public/monsta or food.jpg" alt="" />
-          <img src="public/robot.jpg" alt="" />
+          <img src="/nikee.jpg" alt="" />
+          <img src="/monsta or food.jpg" alt="" />
+          <img src="/robot.jpg" alt="" />
         </div>
         <br />
       </section>
@@ -44,15 +44,15 @@ const Projects = () => {
         <p>Logo Designs</p>
         <br />
         <div className="logos-container">
-          <img src="public/eco-flare.jpg" alt="" />
-          <img src="public/anhor-point.jpg" alt="" />
-          <img src="public/beets.jpg" alt="" />
-          <img src="public/fitclad.jpg" alt="" />
-          <img src="public/illuminiq.jpg" alt="" />
-          <img src="public/konnect-circuit.jpg" alt="" />
-          <img src="public/next-pay.jpg" alt="" />
-          <img src="public/thunder-forte.jpg" alt="" />
-          <img src="public/uplink.jpg" alt="" />
+          <img src="/eco-flare.jpg" alt="" />
+          <img src="/anhor-point.jpg" alt="" />
+          <img src="/beets.jpg" alt="" />
+          <img src="/fitclad.jpg" alt="" />
+          <img src="/illuminiq.jpg" alt="" />
+          <img src="/konnect-circuit.jpg" alt="" />
+          <img src="/next-pay.jpg" alt="" />
+          <img src="/thunder-forte.jpg" alt="" />
+          <img src="/uplink.jpg" alt="" />
         </div>
         <br />
       </section>
@@ -63,7 +63,7 @@ const Projects = () => {
         <p>Brand Designs</p>
         <br />
         <div className="brands-container">
-          <img src="public/real int ad.jpg" alt="" />
+          <img src="/real int ad.jpg" alt="" />
         </div>
         <br />
       </section>
@@ -75,7 +75,7 @@ const Projects = () => {
         <br />
         <div className="websites-container">
           <div className="website">
-            <img src="public/solutions.jpg" alt="" />
+            <img src="/solutions.jpg" alt="" />
             <p>Tenzies Game</p>
           </div>
           <div className="website"></div>

@@ -1,5 +1,5 @@
 import React from "react";
-import morsk from "../../public/morsk.png";
+import morsk from ".././assets/morsk.png";
 import "../styles/nav.css";
 import { Morsk } from "./Morsk";
 import About from "./About";
