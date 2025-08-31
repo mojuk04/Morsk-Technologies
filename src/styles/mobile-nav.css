@@ -1,0 +1,59 @@
+.hamburger-menu {
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hamburger-menu {
+    display: block;
+  }
+  .nav-links {
+    display: none;
+  }
+  .hire-us {
+    display: none;
+  }
+}
+
+.hamburger-menu button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: none;
+  align-items: center;
+  width: fit-content;
+  gap: 0.1px;
+}
+.hamburger-menu button:hover {
+  border: none;
+}
+.hamburger-menu button .inactive {
+  border: 2px solid #093d85;
+  width: 2.5rem;
+  margin: 2px;
+  border-radius: 18%;
+}
+.hamburger-menu button .active {
+  border: 2px solid #093d85;
+  width: 2.5rem;
+  margin: 2px;
+  border-radius: 10rem;
+}
+.mobile-links {
+  position: fixed;
+  width: 97vw;
+  left: 1vw;
+  top: 11vh;
+  background-color: #d1d1cf;
+  padding: 1rem;
+}
+.mobile-links ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.mobile-links button,
+.mobile-links a {
+  list-style-type: none;
+  margin-left: 1rem;
+  color: #093d85;
+  text-decoration: none;
+}

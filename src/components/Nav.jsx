@@ -5,6 +5,7 @@ import { Morsk } from "./Morsk";
 import About from "./About";
 import Solutions from "./Solutions";
 import { Contact } from "./Contact";
+import MobileNav from "./MobileNav";
 
 const Nav = () => {
   return (
@@ -56,8 +57,8 @@ const Nav = () => {
           </div>
         </div>
       </div>
-
-      <button>Hire us</button>
+      <button className="hire-us">Hire us</button>
+      <MobileNav />
     </nav>
   );
 };
