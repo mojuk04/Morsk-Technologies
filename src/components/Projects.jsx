@@ -10,24 +10,30 @@ const Projects = () => {
         <p>Flyers</p>
         <br />
         <div className="flyers-container">
-          <img src="src/assets/graphics projects/real int ad.jpg" alt="" />
-          <img src="src/assets/graphics projects/real max ad.jpg" alt="" />
-          <img src="src/assets/graphics projects/freight bunny.jpg" alt="" />
-          <img src="src/assets/graphics projects/gloryland.jpg" alt="" />
-          <img src="src/assets/graphics projects/gdg.jpg" alt="" />
-          <img src="src/assets/graphics projects/lacadous.jpg" alt="" />
-          <img src="src/assets/graphics projects/morsk.jpg" alt="" />
-          <img src="src/assets/graphics projects/shes-deemua.jpg" alt="" />
-          <img src="src/assets/graphics projects/kindred spirits.jpg" alt="" />
-          <img src="src/assets/graphics projects/neephia stitches.jpg" alt="" />
+          <img src="public/real int ad.jpg" alt="" />
+          <img src="public/real max ad.jpg" alt="" />
+          <img src="public/freight bunny.jpg" alt="" />
+          <img src="public/gloryland.jpg" alt="" />
+
+          <img src="public/gdg.jpg" alt="" />
+
+          <img src="public/lacadous.jpg" alt="" />
+
+          <img src="public/morsk.jpg" alt="" />
+
+          <img src="public/shes-deemua.jpg" alt="" />
+
+          <img src="public/kindred spirits.jpg" alt="" />
+
+          <img src="public/neephia stitches.jpg" alt="" />
         </div>
         <br /> <br />
         <p>Social Media Posts</p>
         <br />
         <div className="social-media-container">
-          <img src="src/assets/graphics projects/nikee.jpg" alt="" />
-          <img src="src/assets/graphics projects/monsta or food 2.jpg" alt="" />
-          <img src="src/assets/graphics projects/robot.jpg" alt="" />
+          <img src="public/nikee.jpg" alt="" />
+          <img src="public/monsta or food.jpg" alt="" />
+          <img src="public/robot.jpg" alt="" />
         </div>
         <br />
       </section>
@@ -38,15 +44,15 @@ const Projects = () => {
         <p>Logo Designs</p>
         <br />
         <div className="logos-container">
-          <img src="src/assets/logos/eco-flare.jpg" alt="" />
-          <img src="src/assets/logos/anhor-point.jpg" alt="" />
-          <img src="src/assets/logos/beets.jpg" alt="" />
-          <img src="src/assets/logos/fitclad.jpg" alt="" />
-          <img src="src/assets/logos/illuminiq.jpg" alt="" />
-          <img src="src/assets/logos/konnect-circuit.jpg" alt="" />
-          <img src="src/assets/logos/next-pay.jpg" alt="" />
-          <img src="src/assets/logos/thunder-forte.jpg" alt="" />
-          <img src="src/assets/logos/uplink.jpg" alt="" />
+          <img src="public/eco-flare.jpg" alt="" />
+          <img src="public/anhor-point.jpg" alt="" />
+          <img src="public/beets.jpg" alt="" />
+          <img src="public/fitclad.jpg" alt="" />
+          <img src="public/illuminiq.jpg" alt="" />
+          <img src="public/konnect-circuit.jpg" alt="" />
+          <img src="public/next-pay.jpg" alt="" />
+          <img src="public/thunder-forte.jpg" alt="" />
+          <img src="public/uplink.jpg" alt="" />
         </div>
         <br />
       </section>
@@ -57,7 +63,7 @@ const Projects = () => {
         <p>Brand Designs</p>
         <br />
         <div className="brands-container">
-          <img src="src/assets/graphics projects/real int ad.jpg" alt="" />
+          <img src="public/real int ad.jpg" alt="" />
         </div>
         <br />
       </section>
@@ -69,7 +75,7 @@ const Projects = () => {
         <br />
         <div className="websites-container">
           <div className="website">
-            <img src="src/assets/solutions.jpg" alt="" />
+            <img src="public/solutions.jpg" alt="" />
             <p>Tenzies Game</p>
           </div>
           <div className="website"></div>

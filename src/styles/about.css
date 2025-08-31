@@ -11,7 +11,7 @@
   min-height: 75vh;
   max-width: 80vw;
   gap: 2.5rem;
-  background: url(../assets/morsk-bg.jpg);
+  background: url(../../public/morsk-bg.jpg);
   background-position: center;
   background-size: cover;
   color: #093d85;

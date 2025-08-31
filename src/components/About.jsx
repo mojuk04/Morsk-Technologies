@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/about.css";
-import about from "../assets/about.jpg";
+import about from "../../public/about.jpg";
 
 const About = () => {
   return (
@@ -20,20 +20,13 @@ const About = () => {
           </p>
           <p>
             Our unified team of experts empower your business by providing
-            seamless technological solutions through holistic and integrated
-            {/* consider using a synonym to approach */}
-            approaches.
-            {/* that drive growth and solve complex
-            problems. */}
+            seamless technological solutions through a holistic and integrated
+            process.
           </p>
           <p>
             We are not just a vendor, we are your strategic business partner and
             we are dedicated to your success.
           </p>
-          {/* <p>
-            We envision a future where every business, regardless of size, has
-            the technological tools and support to thrive in the digital age.
-          </p> */}
         </div>
         <div className="about-img">
           <img src={about} alt="" />

@@ -6,7 +6,7 @@
   background-color: #d1d1cf;
   color: #093d85;
   min-height: 90vh;
-  background: url(../assets/morsk-bg.jpg);
+  background: url(../../public/morsk-bg.jpg);
   background-position: center;
   background-size: cover;
 }

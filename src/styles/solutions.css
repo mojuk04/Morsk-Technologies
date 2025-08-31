@@ -12,7 +12,7 @@
   justify-content: center;
   align-content: center;
   flex-wrap: wrap;
-  background: url(../assets/morsk-bg.jpg);
+  background: url(../../public/morsk-bg.jpg);
   background-position: center;
   background-size: cover;
 }

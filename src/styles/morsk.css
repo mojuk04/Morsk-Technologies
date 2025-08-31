@@ -13,7 +13,7 @@
   max-width: 80vw;
   flex-direction: column;
   color: #093d85;
-  background: url(../assets/morsk-bg.jpg);
+  background: url(../../public/morsk-bg.jpg);
   background-position: center;
   background-size: cover;
 }
