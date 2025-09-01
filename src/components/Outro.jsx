@@ -6,7 +6,7 @@ export const Outro = () => {
     <section className="outro">
       <div className="outro-card card-1">
         <p>Get started</p>
-        <p style={{ fontSize: "2rem" }}>
+        <p className="p1">
           Don't leave food on the table. <br />
           Build with Morsk Technologies and watch your business make the maximum
           gains.
@@ -17,7 +17,7 @@ export const Outro = () => {
       </div>
       <div className="outro-card card-1">
         <p>Not sure where to start?</p>
-        <p style={{ fontSize: "2rem" }}>
+        <p className="p1">
           Still unsure? <br />
           Schedule a call today and hear what experts think about your needs
         </p>

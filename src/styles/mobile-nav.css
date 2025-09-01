@@ -12,7 +12,7 @@
     display: flex;
   }
   svg {
-    height: 3rem;
+    height: 2rem;
   }
 
   .hamburger-menu button {
@@ -33,17 +33,20 @@
   }
   .mobile-links {
     position: fixed;
-    width: 99vw;
-    top: 10vh;
+    width: 99.8vw;
+    top: 9vh;
     left: 0;
-    padding-right: 5rem;
+
     background-color: #d1d1cf;
+    border-top: 1px solid #093d85ce;
   }
   .mobile-links li {
     width: 100vw;
     margin: 1rem 0;
     list-style: none;
     padding: 0.25rem;
+    text-align: right;
+    padding-right: 1rem;
     box-shadow: 0px 1px #093d85ce;
   }
   .mobile-links a {

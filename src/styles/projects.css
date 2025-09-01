@@ -47,10 +47,6 @@
 .brand-designs img {
   width: 20rem;
 }
-
-.websites {
-  border: 2px solid grey;
-}
 .websites img {
   width: 20rem;
 }
@@ -65,7 +61,7 @@
 .website {
   width: 35rem;
   height: 20rem;
-  border: 2px solid #d1d1df;
+  border: 1px solid #d1d1df;
   display: flex;
   align-items: center;
   justify-content: space-evenly;

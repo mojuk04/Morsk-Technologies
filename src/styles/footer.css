@@ -1,15 +1,30 @@
 .footer {
-  border: 1px solid red;
-  min-height: 50vh;
+  /* min-height: 50vh; */
+  background-color: #093285;
+  background: url(/morsk-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 1px solid #093285;
 }
 
 .footer p {
   padding: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   font-family: "Century Gothic";
   text-align: center;
-  color: #dadacf;
+  color: #093285;
 }
 .footer a {
-  color: #dadacf;
+  color: #093285;
+}
+.icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  width: fit-content;
+  margin: auto;
+}
+.fa-brands {
+  font-size: 2rem;
+  color: #093285;
 }

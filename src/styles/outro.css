@@ -15,7 +15,6 @@
 
 .outro-card {
   width: 32.5rem;
-  min-height: 20rem;
   padding: 2rem 1.5rem;
   display: flex;
   flex-direction: column;
@@ -23,7 +22,9 @@
   background-color: #093285;
   color: #d1d1cf;
 }
-
+.outro-card .p1 {
+  font-size: 2rem;
+}
 .outro-card p {
   font-size: 1.25rem;
 }
@@ -42,9 +43,12 @@
   cursor: pointer;
   transition: 0.9s;
 }
-.outro-card button:hover {
-  border: 2px solid #d1d1cf;
-  color: #d1d1cf;
-  background: none;
-}
 
+@media only screen and (max-width: 1000px) {
+  .outro-card p {
+    font-size: 1rem;
+  }
+  .outro-card .p1 {
+    font-size: 1.25rem;
+  }
+}
