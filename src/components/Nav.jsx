@@ -11,7 +11,7 @@ const Nav = () => {
   return (
     <nav class="nav-container">
       <div className="image">
-        <img src={morsk} alt="morsk logo" width="100px" />
+        <img src={morsk} alt="morsk logo" width="75px" />
       </div>
       <div class="nav-links">
         <div class="nav-item">
