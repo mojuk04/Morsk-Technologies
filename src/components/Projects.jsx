@@ -10,24 +10,24 @@ const Projects = () => {
         <p>Flyers</p>
         <br />
         <div className="flyers-container">
-          <img src="/real int ad.jpg" alt="" loading="lazy" />
-          <img src="/real max ad.jpg" alt="" loading="lazy" />
-          <img src="/freight bunny.jpg" alt="" loading="lazy" />
-          <img src="/gloryland.jpg" alt="" loading="lazy" />
-          <img src="/gdg.jpg" alt="" loading="lazy" />
-          <img src="/lacadous.jpg" alt="" loading="lazy" />
-          <img src="/morsk.jpg" alt="" loading="lazy" />
-          <img src="/shes-deemua.jpg" alt="" loading="lazy" />
-          <img src="/kindred spirits.jpg" alt="" loading="lazy" />
-          <img src="/neephia stitches.jpg" alt="" loading="lazy" />
+          <img src="/real int ad-min.jpg" alt="" loading="lazy" />
+          <img src="/real max ad-min.jpg" alt="" loading="lazy" />
+          <img src="/freight bunny-min.jpg" alt="" loading="lazy" />
+          <img src="/gloryland-min.jpg" alt="" loading="lazy" />
+          <img src="/gdg-min.jpg" alt="" loading="lazy" />
+          <img src="/lacadous-min.jpg" alt="" loading="lazy" />
+          <img src="/morsk-min.jpg" alt="" loading="lazy" />
+          <img src="/shes-deemua-min.jpg" alt="" loading="lazy" />
+          <img src="/kindred spirits-min.jpg" alt="" loading="lazy" />
+          <img src="/neephia stitches-min.jpg" alt="" loading="lazy" />
         </div>
         <br /> <br />
         <p>Social Media Posts</p>
         <br />
         <div className="social-media-container">
-          <img src="/nikee.jpg" alt="" loading="lazy" />
-          <img src="/monsta or food 2.jpg" alt="" loading="lazy" />
-          <img src="/robot.jpg" alt="" loading="lazy" />
+          <img src="/nikee.jpg-min" alt="" loading="lazy" />
+          <img src="/monsta or food 2-min.jpg" alt="" loading="lazy" />
+          <img src="/robot.jpg-min" alt="" loading="lazy" />
         </div>
         <br />
       </section>

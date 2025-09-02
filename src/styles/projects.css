@@ -26,7 +26,7 @@
 .flyers-container img,
 .social-media-container img {
   width: 20rem;
-  /* border: 2px solid #d1d1df; */
+  border: 0.25px solid #d1d1df;
   border-radius: 1rem;
 }
 
@@ -39,7 +39,7 @@
 }
 .logos img {
   width: 7.5rem;
-  border: 1px solid #d1d1df;
+  border: 0.25px solid #d1d1df;
 }
 .brand-designs {
   border: 1px solid;
@@ -67,3 +67,4 @@
   justify-content: space-evenly;
   flex-direction: column;
 }
+/* https://imagecompressor.com/ */
