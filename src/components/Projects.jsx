@@ -13,9 +13,9 @@ const Projects = () => {
           <img src="/real int ad-min.jpg" alt="" loading="lazy" />
           <img src="/real max ad-min.jpg" alt="" loading="lazy" />
           <img src="/freight bunny-min.jpg" alt="" loading="lazy" />
-          <img src="/gloryland-min.jpg" alt="" loading="lazy" />
+          {/* <img src="/gloryland-min.jpg" alt="" loading="lazy" /> */}
           <img src="/gdg-min.jpg" alt="" loading="lazy" />
-          <img src="/lacadous-min.jpg" alt="" loading="lazy" />
+          {/* <img src="/lacadous-min.jpg" alt="" loading="lazy" /> */}
           <img src="/morsk-min.jpg" alt="" loading="lazy" />
           <img src="/shes-deemua-min.jpg" alt="" loading="lazy" />
           <img src="/kindred spirits-min.jpg" alt="" loading="lazy" />
@@ -25,9 +25,9 @@ const Projects = () => {
         <p>Social Media Posts</p>
         <br />
         <div className="social-media-container">
-          <img src="/nikee.jpg-min" alt="" loading="lazy" />
-          <img src="/monsta or food 2-min.jpg" alt="" loading="lazy" />
-          <img src="/robot.jpg-min" alt="" loading="lazy" />
+          <img src="/nikee.jpg" alt="" loading="lazy" />
+          <img src="/monsta or food 2.jpg" alt="" loading="lazy" />
+          <img src="/robot.jpg" alt="" loading="lazy" />
         </div>
         <br />
       </section>
@@ -72,9 +72,14 @@ const Projects = () => {
             <img src="/solutions.jpg" alt="" loading="lazy" />
             <p>Tenzies Game</p>
           </div>
-          <div className="website"></div>
-          <div className="website"></div>
-          <div className="website"></div>
+          <div className="website">
+            <img src="/solutions.jpg" alt="" loading="lazy" />
+            <p>Tenzies Game</p>
+          </div>
+          <div className="website">
+            <img src="/solutions.jpg" alt="" loading="lazy" />
+            <p>Tenzies Game</p>
+          </div>
         </div>
         <br />
       </section>
