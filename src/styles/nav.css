@@ -9,9 +9,7 @@
   box-shadow: 10px #000;
   min-height: 10vh;
   max-width: 100vw;
-  font-family: "Century Gothic";
 }
-
 .nav-links {
   display: flex;
   align-items: center;
@@ -29,8 +27,6 @@
   font-size: 1.1rem;
 }
 .hover-content {
-  /* transform: translateX(-50%) scale(0.5); */
-  /* transform-origin: top; */
   position: absolute;
   left: 25%;
   top: 0rem;
@@ -46,12 +42,11 @@
   background: none;
 }
 .nav-item:hover .hover-content {
-  /* transform: translateX(0) scale(1); */
   opacity: 1;
   visibility: visible;
   position: fixed;
   min-height: 75vh;
-  top: 4rem;
+  top: 3.75rem;
   left: 10vw;
   right: 10vw;
   width: 80vw;
@@ -68,18 +63,13 @@
   width: 100vw;
   margin: auto;
 }
-
 nav button {
   width: 7.5rem;
   height: 2.5rem;
   background-color: #093d85;
-  border: none;
-  border-radius: 0.75rem;
-  font-family: inter;
   font-size: 1.15rem;
   font-weight: bold;
   color: #d1d1cf;
-  cursor: pointer;
   transition: 0.3s;
 }
 nav button:hover {
@@ -87,7 +77,6 @@ nav button:hover {
   border: 2px solid #093d85;
   color: #093d85;
 }
-
 @media only screen and (max-width: 1000px) {
   .nav-container {
     min-height: 1vh;

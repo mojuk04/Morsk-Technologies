@@ -14,18 +14,14 @@
   svg {
     height: 2rem;
   }
-
-  .hamburger-menu button {
-    border: 1px solid;
+  .hamburger-menu button,
+  .hamburger-menu button:hover {
     display: flex;
     justify-content: center;
     align-items: center;
     width: fit-content;
     color: #093d85ce;
     background: none;
-    border: none;
-  }
-  .hamburger-menu button:hover {
     border: none;
   }
   .nav-links {
@@ -36,9 +32,10 @@
     width: 99.8vw;
     top: 9vh;
     left: 0;
-
     background-color: #d1d1cf;
-    border-top: 1px solid #093d85ce;
+    /* height: 11.75rem; */
+    /* border-top: 0.1px solid #093d85ce; */
+    /* border: 2px solid #093d85; */
   }
   .mobile-links li {
     width: 100vw;
@@ -47,7 +44,8 @@
     padding: 0.25rem;
     text-align: right;
     padding-right: 1rem;
-    box-shadow: 0px 1px #093d85ce;
+    /* box-shadow: 0px 1px #093d85ce; */
+    border-top: 2px solid #093d85;
   }
   .mobile-links a {
     color: #093d85;

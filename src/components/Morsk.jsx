@@ -5,9 +5,9 @@ export const Morsk = () => {
   return (
     <section className="morsk-section">
       <div className="morsk-flex-container">
-        <h2 style={{ textAlign: "center" }} className="morsk-header">
+        <p style={{ textAlign: "center" }} className="morsk-header">
           Why not Morsk when we offer you
-        </h2>
+        </p>
         <div className="morsk-cards-container">
           <div className="morsk-card card1 ">
             <h3>All in one solutions</h3>

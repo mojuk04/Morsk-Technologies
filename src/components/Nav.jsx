@@ -13,13 +13,13 @@ const Nav = () => {
       <div className="image">
         <img src={morsk} alt="morsk logo" width="75px" />
       </div>
-      <div class="nav-links">
-        <div class="nav-item">
+      <div class="nav-links" >
+        <div class="nav-item" >
           <a href="#" class="nav-link">
             Why Morsk
           </a>
-          <div class="hover-content">
-            <div class="pop-up-body">
+          <div class="hover-content" >
+            <div class="pop-up-body" >
               <Morsk />
             </div>
           </div>

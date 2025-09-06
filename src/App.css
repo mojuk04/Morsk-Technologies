@@ -3,9 +3,17 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  /* font-family: Century Gothic; */
+  font-family: Century Gothic;
 }
 body {
   background-color: #1a1a1a;
   max-width: 100%;
+}
+button {
+  border: none;
+  border-radius: 0.75rem;
+  font-size: 1.15rem;
+  font-weight: bold;
+  cursor: pointer;
+  font-family: century gothic;
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/projects.css";
 
+// check this out for linking to other web pages
+// https://www.youtube.com/watch?v=qi32YwjoN2U
 const Projects = () => {
   return (
     <section className="projects">
@@ -25,7 +27,7 @@ const Projects = () => {
         <p>Social Media Posts</p>
         <br />
         <div className="social-media-container">
-          <img src="/nikee.jpg" alt="" loading="lazy" />
+          <img src="/nikee-min.jpg" alt="" loading="lazy" />
           <img src="/monsta or food 2.jpg" alt="" loading="lazy" />
           <img src="/robot.jpg" alt="" loading="lazy" />
         </div>
@@ -57,7 +59,8 @@ const Projects = () => {
         <p>Brand Designs</p>
         <br />
         <div className="brands-container">
-          <img src="/real int ad.jpg" alt="" loading="lazy" />
+          <img src="/real int ad-min.jpg" alt="" loading="lazy" />
+          <img src="/real int ad-min.jpg" alt="" loading="lazy" />
         </div>
         <br />
       </section>
@@ -68,6 +71,10 @@ const Projects = () => {
         <p>Websites</p>
         <br />
         <div className="websites-container">
+          <div className="website">
+            <img src="/solutions.jpg" alt="" loading="lazy" />
+            <p>Tenzies Game</p>
+          </div>
           <div className="website">
             <img src="/solutions.jpg" alt="" loading="lazy" />
             <p>Tenzies Game</p>
